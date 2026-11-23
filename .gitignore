@@ -13,3 +13,14 @@ Thumbs.db
 
 # Локальные настройки и секреты
 .env
+# Локальные конфигурации
+.env.*
+!.env.example
+
+# Резервные копии PostgreSQL
+*.dump
+*.backup
+
+# Результаты сборки
+build/
+dist/
